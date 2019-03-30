@@ -12,10 +12,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Wolfgang",
           "lastName": "Stein",
           "totalScore": 33,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 2,
@@ -24,10 +24,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Jack",
           "lastName": "Mudd",
           "totalScore": 36,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 3,
@@ -36,10 +36,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Beastie",
           "lastName": "Boiz",
           "totalScore": 39,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 4,
@@ -48,10 +48,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Bonethugs",
           "lastName": "Nharmony",
           "totalScore": 38,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 5,
@@ -60,10 +60,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Pusha",
           "lastName": "Tee",
           "totalScore": 38,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 6,
@@ -72,10 +72,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Snoop",
           "lastName": "Dawg",
           "totalScore": 35,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 7,
@@ -84,10 +84,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Massimo",
           "lastName": "Maci",
           "totalScore": 37,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 8,
@@ -96,10 +96,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Kermit",
           "lastName": "Thefrog",
           "totalScore": 33,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 9,
@@ -108,10 +108,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Olive",
           "lastName": "Juice",
           "totalScore": 34,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 10,
@@ -120,10 +120,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Robert",
           "lastName": "Russo",
           "totalScore": 33,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 11,
@@ -132,10 +132,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Judy",
           "lastName": "Russo",
           "totalScore": 35,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 12,
@@ -144,10 +144,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Elaine",
           "lastName": "Jones",
           "totalScore": 36,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 13,
@@ -156,10 +156,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Kim",
           "lastName": "Worthington",
           "totalScore": 37,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 14,
@@ -168,10 +168,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Brian",
           "lastName": "Worthington",
           "totalScore": 36,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 15,
@@ -180,10 +180,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Christopher",
           "lastName": "Worthington",
           "totalScore": 35,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 16,
@@ -192,10 +192,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Jessica",
           "lastName": "Jones",
           "totalScore": 39,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 17,
@@ -204,10 +204,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Robert",
           "lastName": "Jones",
           "totalScore": 30,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 18,
@@ -216,10 +216,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Kathy",
           "lastName": "Minassian",
           "totalScore": 37,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 19,
@@ -228,10 +228,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Seta",
           "lastName": "Buchter",
           "totalScore": 31,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 20,
@@ -240,10 +240,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Christina",
           "lastName": "Buchter",
           "totalScore": 34,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 21,
@@ -252,10 +252,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Rodger",
           "lastName": "Rabbit",
           "totalScore": 34,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 22,
@@ -264,10 +264,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Gonzo",
           "lastName": "Newman",
           "totalScore": 39,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 23,
@@ -276,10 +276,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Alex",
           "lastName": "Hough",
           "totalScore": 38,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 24,
@@ -288,10 +288,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Carly",
           "lastName": "Mandell",
           "totalScore": 33,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         },
         {
           "id": 25,
@@ -300,10 +300,10 @@ exports.seed = function (knex, Promise) {
           "firstName": "Prudence",
           "lastName": "Compatriot",
           "totalScore": 31,
-          "receptiveScore": null,
-          "expressiveScore": null,
-          "socialSkillsScore": null,
-          "redFlags": null
+          "receptiveScore": 0,
+          "expressiveScore": 0,
+          "socialSkillsScore": 0,
+          "redFlags": 0
         }
       ]);
     });

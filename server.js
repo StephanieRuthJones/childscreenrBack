@@ -6,17 +6,10 @@ const environment = process.env.NODE_ENV || 'development'
 const config = require('./knexfile')[environment]
 const knex = require('knex')(config)
 const cors = require('cors')
-
 const bodyParser = require('body-parser')
+
 app.use(bodyParser.json())
 app.use(cors())
-
-var parser = require('body-parser')
-app.use(parser.json())
-
-// app.get('/', (req, res, next) => {
-//     res.send('hello world')
-// })
 
 app.get('/', (req, res, next) => {
     knex('testItems')
@@ -28,7 +21,17 @@ app.get('/', (req, res, next) => {
         })
 })
 
-// app.get('/alluserdata', (req, res, next) => {
+app.get('/students', (req, res, next) => {
+    knex('students')
+        .then((rows) => {
+            res.send(rows)
+        })
+        .catch((err) => {
+            next(err)
+        })
+})
+
+// app.get('/students', (req, res, next) => {
 //     return knex('users')
 //         .then(users => {
 //             const getComments = users.map(user => {
