@@ -31,6 +31,16 @@ app.get('/students', (req, res, next) => {
         })
 })
 
+app.get('/student_testItem', (req, res, next) => {
+    knex('student_testItem')
+        .then((rows) => {
+            res.send(rows)
+        })
+        .catch((err) => {
+            next(err)
+        })
+})
+
 // app.get('/students', (req, res, next) => {
 //     return knex('users')
 //         .then(users => {
