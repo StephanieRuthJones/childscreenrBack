@@ -14,19 +14,19 @@ app.use(cors())
 var parser = require('body-parser')
 app.use(parser.json())
 
-app.get('/', (req, res, next) => {
-    res.send('hello world')
-})
-
 // app.get('/', (req, res, next) => {
-//     knex('questions')
-//         .then((rows) => {
-//             res.send(rows)
-//         })
-//         .catch((err) => {
-//             next(err)
-//         })
+//     res.send('hello world')
 // })
+
+app.get('/', (req, res, next) => {
+    knex('testItems')
+        .then((rows) => {
+            res.send(rows)
+        })
+        .catch((err) => {
+            next(err)
+        })
+})
 
 // app.get('/alluserdata', (req, res, next) => {
 //     return knex('users')
