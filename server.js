@@ -21,6 +21,26 @@ app.get('/', (req, res, next) => {
         })
 })
 
+app.get('/educators', (req, res, next) => {
+    knex('educators')
+        .then((rows) => {
+            res.send(rows)
+        })
+        .catch((err) => {
+            next(err)
+        })
+})
+
+app.get('/tests', (req, res, next) => {
+    knex('tests')
+        .then((rows) => {
+            res.send(rows)
+        })
+        .catch((err) => {
+            next(err)
+        })
+})
+
 app.get('/students', (req, res, next) => {
     knex('students')
         .then((rows) => {
@@ -41,63 +61,26 @@ app.get('/student_testItem', (req, res, next) => {
         })
 })
 
-// app.get('/students', (req, res, next) => {
-//     return knex('users')
-//         .then(users => {
-//             const getComments = users.map(user => {
-//                 return knex('comments')
-//                     .where({ user_id: user.id })
-//                     .then(comments => {
-//                         user.comments = comments
-//                         return user
-//                     })
-//             })
-//             return Promise.all(getComments)
-//         })
-//         .then(result => res.send(result))
-// })
+app.post('/student_testItem', (req, res, next) => {
+    knex('student_testItem').insert(req.body)
+        .then((rows) => {
+            res.send(rows);
+        })
+        .catch((err) => {
+            next(err)
+        })
+})
 
-// app.get('/users', (req, res, next) => {
-//     knex('users')
-//         .then((rows) => {
-//             res.send(rows)
-//         })
-//         .catch((err) => {
-//             next(err)
-//         })
-// })
+app.post('/students', (req, res, next) => {
+    knex('students').insert(req.body)
+        .then((rows) => {
+            res.send(rows);
+        })
+        .catch((err) => {
+            next(err)
+        })
+})
 
-// app.get('/comments', (req, res, next) => {
-//     knex('comments')
-//         .then((rows) => {
-//             res.send(rows)
-//         })
-//         .catch((err) => {
-//             next(err)
-//         })
-// })
-
-// app.post('/comments', (req, res, next) => {
-//     knex('comments').insert(req.body)
-//         .then((rows) => {
-//             res.send(rows);
-//         })
-//         .catch((err) => {
-//             next(err)
-//         })
-// })
-
-//edit:
-// app.put('/comments/:id', (req, res, next) => {
-//     console.log('req.body', req.body)
-//     knex('comments').update(req.body).where('id', req.params.id).returning('*')
-//         .then((rows) => {
-//             res.send(rows);
-//         })
-//         .catch((err) => {
-//             next(err)
-//         })
-// })
 
 app.use(function (err, req, res, next) {
     console.error(err.stack)

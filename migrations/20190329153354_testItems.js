@@ -5,7 +5,9 @@ exports.up = function (knex, Promise) {
         table.text('test_item').notNullable().defaultsTo('')
         table.text('examiner_instructions').defaultsTo('')
         table.text('correct_answer').defaultsTo('')
+        table.integer('correct_answer_value').defaultsTo(1)
         table.text('incorrect_answer').defaultsTo('')
+        table.integer('incorrect_answer_value').defaultsTo(0)
 
     })
 }
